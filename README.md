@@ -23,6 +23,12 @@ struct address
    int pin;
    
 };
+# Limitations of C Structures
+In C language, Structures provide a method for packing together data of different types. A Structure is a helpful tool to handle a group of logically related data items. However, C structures have some limitations.
+
+The C structure does not allow the struct data type to be treated like built-in data types:
+
+We cannot use operators like +,- etc. on Structure variables. For example, consider the following code: 
 
 # Output
 ![image](https://user-images.githubusercontent.com/76811184/234385720-88bd6e62-f397-4151-b97b-d8c9330f9194.png)
